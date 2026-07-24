@@ -275,6 +275,11 @@
   overflow: hidden;
 }
 
+/* Gap between multiple leader cards */
+.leader-card + .leader-card {
+  margin-top: 3rem;
+}
+
 /* ─── Portrait column ────────────────────────── */
 .leader-portrait-wrap {
   background: var(--color-navy);
